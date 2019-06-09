@@ -74,3 +74,5 @@ turtle.done()
 #111111111
 def m1():
     pass
+def m2():
+    pass
