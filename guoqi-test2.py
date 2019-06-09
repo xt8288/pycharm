@@ -76,3 +76,4 @@ def m1():
     pass
 def m2():
     pass
+#新增添代码时候，先要Git commit file，然后再push
