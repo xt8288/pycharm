@@ -72,3 +72,8 @@ turtle.hideturtle()#隐藏小海龟
 #维持面板
 turtle.done()
 #111111111
+def m1():
+    pass
+def m2():
+    pass
+#新增添代码时候，先要Git commit file，然后再push
