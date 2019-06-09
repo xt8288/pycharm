@@ -72,3 +72,5 @@ turtle.hideturtle()#隐藏小海龟
 #维持面板
 turtle.done()
 #111111111
+def m1():
+    pass
