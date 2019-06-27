@@ -46,9 +46,9 @@ import numpy as np
 
 # a=np.random.random((2,4))    #随机生成2行4列
 # print(a)
-# b=np.sum(a)                  #求和
-# c=np.min(a)                  #元素当中最小值
-# d=np.max(a)                  #元素当中最大值
+# b=np.sum(a)                   #求和
+# c=np.min(a)                   #元素当中最小值
+# d=np.max(a)                   #元素当中最大值
 # print(b)
 # print(c)
 # print(d)
@@ -73,4 +73,27 @@ import numpy as np
 '''
 7.numpy索引
 '''
+# A=np.arange(3,15)              #生成3-15的数组
+# print(A)                       #
+# print(A[2])                    #数组中第三个元素是5
+# A=np.arange(3,15) .reshape((3,4))#3-15变成三行四列的数列
+# print(A)
+# print(A[2])                      #矩阵中第三行，0 1 2 ，2代表第三行
+# print(A[1][1])                   #矩阵中的2行2列
+# print(A[1,1])                    #同上，表示方法不同
+# print(A[:,1])                    #矩阵中的第二列，1代表矩阵第二列
+# print(A[2,:])                    #矩阵中的第三行，2代表第三行，都是从0开始算
+# print(A[1,1:3])                  #矩阵中第二行，第二列到第四列之间的数
+
+A=np.arange(3,15) .reshape((3,4))#3-15变成三行四列的数列
+for row in A:                      #输出迭代A的行
+    print(A)
+for column in A.T:                 #输出迭代A的列，三行四列numpy不能直接迭代出来
+    print(column)
+    print(A.flat)
+    print(A.flatten())             #三行四列变成一行
+for item in A.flat:                #迭代A的每一个项目
+    print(item)
+
+
 
