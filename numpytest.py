@@ -85,15 +85,15 @@ import numpy as np
 # print(A[2,:])                    #矩阵中的第三行，2代表第三行，都是从0开始算
 # print(A[1,1:3])                  #矩阵中第二行，第二列到第四列之间的数
 
-A=np.arange(3,15) .reshape((3,4))#3-15变成三行四列的数列
-for row in A:                      #输出迭代A的行
-    print(A)
-for column in A.T:                 #输出迭代A的列，三行四列numpy不能直接迭代出来
-    print(column)
-    print(A.flat)
-    print(A.flatten())             #三行四列变成一行
-for item in A.flat:                #迭代A的每一个项目
-    print(item)
+# A=np.arange(3,15) .reshape((3,4))#3-15变成三行四列的数列
+# for row in A:                      #输出迭代A的行
+#     print(A)
+# for column in A.T:                 #输出迭代A的列，三行四列numpy不能直接迭代出来
+#     print(column)
+#     print(A.flat)
+#     print(A.flatten())             #三行四列变成一行
+# for item in A.flat:                #迭代A的每一个项目
+#     print(item)
 
 
 
