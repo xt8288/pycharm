@@ -13,4 +13,6 @@ sudo apt-get install python-opencv
 安装PiCamera:
 sudo apt-get install python-pip 
 sudo apt-get install python-dev 
-sudo pip install picamera'''
+sudo pip install picamera
+安装中文输入法
+sudo apt-get install scim-pinyin'''
