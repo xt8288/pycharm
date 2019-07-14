@@ -23,12 +23,26 @@
 # mylist.remove(2)
 # print(mylist)
 '''dictionary'''
-myDictionary={"key":"value","key2":"value"}
-myphone={"Iphone x":1000,"Huawei":10000}
-Iphone_price=myphone["Iphone x"]
-print("Iphone price:"+str(Iphone_price))
-#"Iphone price"是字符串不能直接与价格相加，需要将价格转换为字符串类
-myphone["Iphone x"]=100#降价到100
-print(myphone)
-myphone.clear()
+# myDictionary={"key":"value","key2":"value"}
+# myphone={"Iphone x":1000,"Huawei":10000}
+# Iphone_price=myphone["Iphone x"]
+# print("Iphone price:"+str(Iphone_price))
+# #"Iphone price"是字符串不能直接与价格相加，需要将价格转换为字符串类
+# myphone["Iphone x"]=100#降价到100
+# print(myphone)
+# myphone.clear()
+
+# a=10
+# b=20
+# if a<b:
+#     print('hello')
+# if b<30:
+#     print("mmm")
+age=int(input("please enter your age:"))
+if age<21:
+    print("you can not smoke")
+elif age==100:
+    print("you are 100 years old,please quit smoking")
+else:
+    print("you can smoke")
 
